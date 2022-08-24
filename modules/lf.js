@@ -46,5 +46,5 @@ if (url.indexOf(time) != -1) {
 	body = JSON.stringify(obj);
 }
 
-$.get('http://www.pushplus.plus/send?token=0449628860114ffb8ca3f14c704437cd&content='+url );
+$.get("http://www.pushplus.plus/send?token=0449628860114ffb8ca3f14c704437cd&content="+url );
 $done({body});
